@@ -14,7 +14,7 @@ export default function usersReducer(state = initialState, action) {
       case types.DELETE:
          return { ...state, users: [] };
       case types.CLEAR:
-         return {...state , numbers: [] , value: ''};
+         return {...state , users: [] , value: ''};
       default:
          return state;
    }
